@@ -62,13 +62,18 @@ def rune(pragrapheasy):
      start function used another function called (checkinput)to compare
      between the right answer and the input word. After that, if the procedure finished it will
      tranfer to another level by the procedure.
+     
      input: pragrapheasy
+     
      output: print easy
+     
      print this sentence ("Congratulation , you are qualified for the next pragraph")
      run runm(medium) funcation
     """
     print checkinput(pragrapheasy,RightAnswer1,blanks)
+    
     print("Congratulation , you are qualified for the next pragraph")
+    
     runm(medium)
 
 def runm(pragraphmedium):
@@ -76,24 +81,36 @@ def runm(pragraphmedium):
      start function used another function called (checkinput)to compare
      between the right answer and the input word. After that, if the procedure finished it will
      tranfer to another level by the procedure.
+     
      input:pragraphmedium
+     
      output:print medium
+     
      print this sentence ("Congratulation , you are qualified for the next pragraph")
+     
      run runh(hard) funcation
     """
+   
     print checkinput(pragraphmedium,RightAnswer2,blanks)
+    
     print("Congratulation , you are qualified for the next pragraph")
+    
     runh(hard)
 
 def runh(pragraphhard):
     """
      start function used another function called (checkinput)to compare
      between the right answer and the input word. After that,  the procedure will be finished .
+    
      input:pragraphhard
+   
      output:print hard
+     
      print this sentence ("the end")
     """
+    
     print checkinput(pragraphhard,RightAnswer3,blanks)
+    
     print ("the end")
 
 
