@@ -1,14 +1,13 @@
-# fill-in-the-blanks
 
-# correct answer for each level
+ correct answer for each level
 RightAnswer1=["fly","boat","run","is"]
 RightAnswer2=["office","choose","codes","casual"]
 RightAnswer3=["cold","temperatures","low","horse"]
 
-# there are 4 blanks on each level
+ there are 4 blanks on each level
 blanks=["___1___","___2___","___3___","___4___"]
 
-# 3 levels and each level contains 4 blanks to fill in .
+ 3 levels and each level contains 4 blanks to fill in .
 easy ='''We can't ___1___ like birds so we invented the plane.
         We can't swim like fish so we invented the ___2___.
         We can't ___3___ like cheetahs so we invented the car.
@@ -27,7 +26,7 @@ hard='''If you are tired of the ___1___ winter, think about the residents of
   that survives in these low temperatures.
   The ___4___ is small but perfectly formed for cold winters.'''
 
-# start game and the user choose level what they want then the level is run the funcation .
+start game and the user choose level what they want then the level is run the funcation .
 def start():
  print ('welcome to the star game')
  level= raw_input("choose your game level ? 1-easy,2-medium,3-hard") .lower()
