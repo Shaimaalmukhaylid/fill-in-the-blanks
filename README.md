@@ -1,7 +1,10 @@
 
  correct answer for each level
+ 
 RightAnswer1=["fly","boat","run","is"]
+
 RightAnswer2=["office","choose","codes","casual"]
+
 RightAnswer3=["cold","temperatures","low","horse"]
 
  there are 4 blanks on each level
